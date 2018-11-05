@@ -1,3 +1,5 @@
+#“神经图像类比”（neural image analogies）这个项目基本上是 A. Hertzmann et. al（2001）的论文“Image Analogies”的一个实现。在这个项目中，我们使用了 VGG16 的特征，利用 Chuan Li, Michael Wand (2016) 的论文“Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis”中描述的方法进行patch的匹配和混合。初始代码改编自 Keras 的“神经风格迁移”示例。
+
 neural image analogies
 ----------------------
 ![Image of arch](https://raw.githubusercontent.com/awentzonline/image-analogies/master/examples/images/image-analogy-explanation.jpg)
